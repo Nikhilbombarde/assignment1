@@ -1,0 +1,81 @@
+.card-container {
+  max-height: 400px;
+  max-width: 500px;
+  margin: auto;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.upper-container {
+  background-image: url("https://en.freejpg.com.ar/asset/400/0a/0a98/F100027779.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 150px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.upper-container img {
+  background-color: white;
+  border-radius: 50px;
+  transform: translate(20px, 95px);
+  padding: 0.2rem 0.22rem;
+}
+
+.upper-container .followbtn {
+  width: 70px;
+  height: 30px;
+  transform: translate(-10px, 170px);
+  /* background-color: white; */
+  border: 1px solid purple;
+  border-radius: 20px;
+}
+
+.upper-container .followbtn:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+.lower-container {
+  background-color: rgb(243, 243, 243);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.lower-container .content {
+  padding: 2rem 2rem;
+  text-align: justify;
+  line-height: 1;
+}
+.lower-container .content h2 {
+  margin-top: 2.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.lower-container .content p {
+  font-size: 1rem;
+}
+
+
+.service{
+    display: flex;
+    justify-content:left;
+    gap: 5px; 
+}
+
+.service-column{
+  text-align: left;
+}
+
+
